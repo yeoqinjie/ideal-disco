@@ -1,1 +1,3 @@
-/usr/local/apache-tomcat-9.0.16/webapps/struts/src/main/java/org/apache/struts2/action/Test.java
+/usr/local/apache-tomcat-9.0.16/webapps/struts/src/main/java/org/apache/struts/action/Test.java
+/usr/local/apache-tomcat-9.0.16/webapps/struts/src/main/java/org/apache/struts/helloworld/action/HelloWorldAction.java
+/usr/local/apache-tomcat-9.0.16/webapps/struts/src/main/java/org/apache/struts/helloworld/model/MessageStore.java
