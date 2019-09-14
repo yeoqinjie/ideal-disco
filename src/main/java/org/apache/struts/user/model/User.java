@@ -6,7 +6,11 @@ public class User {
     private String lastName;
     private String email;
     private String password;
-    private int type;
+	private int type;
+	
+	public User() {
+		
+	}
 
     public User(int id, String firstName, String lastName, String email, String password, int type) {
         setId(id);

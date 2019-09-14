@@ -1,3 +1,8 @@
+/usr/local/apache-tomcat-9.0.16/webapps/struts/src/main/java/org/apache/struts/user/action/LoginUser.java
+/usr/local/apache-tomcat-9.0.16/webapps/struts/src/main/java/org/apache/struts/user/action/Profile.java
 /usr/local/apache-tomcat-9.0.16/webapps/struts/src/main/java/org/apache/struts/action/Test.java
+/usr/local/apache-tomcat-9.0.16/webapps/struts/src/main/java/org/apache/struts/user/action/RegisterUser.java
 /usr/local/apache-tomcat-9.0.16/webapps/struts/src/main/java/org/apache/struts/helloworld/action/HelloWorldAction.java
+/usr/local/apache-tomcat-9.0.16/webapps/struts/src/main/java/org/apache/struts/user/dao/UserManager.java
+/usr/local/apache-tomcat-9.0.16/webapps/struts/src/main/java/org/apache/struts/user/model/User.java
 /usr/local/apache-tomcat-9.0.16/webapps/struts/src/main/java/org/apache/struts/helloworld/model/MessageStore.java

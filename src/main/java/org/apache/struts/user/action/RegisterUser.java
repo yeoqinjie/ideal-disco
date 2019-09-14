@@ -14,13 +14,10 @@ public class RegisterUser extends ActionSupport{
     private String lastName;
     private String email;
     private String password;
-    private int type; 
 
     public String execute() throws SQLException {
-        if (UserManager.emailExists(email)) {
-            return "failure";
-        }
-        UserManager.createUser(firstName, lastName, email, password, type);
+        System.out.print(firstName);
+        UserManager.createUser(firstName, lastName, email, password, 2);
         return SUCCESS;
     }
 
@@ -62,13 +59,5 @@ public class RegisterUser extends ActionSupport{
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public int getType() {
-        return type;
-    }
-
-    public void setType(int type) {
-        this.type = type;
     }
 }

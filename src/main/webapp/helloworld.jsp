@@ -9,9 +9,13 @@
 </head>
 
 <body>
-    <h2>
-        <s:property value="messageStore.message" />
-    </h2>
+    <s:form action="register" method="post">
+        <s:textfield name="firstName" label="First Name"/>
+        <s:textfield name="lastName" label="Last Name"/>
+        <s:textfield name="email" label="Email"/>
+        <s:password name="password" label="Password"/>
+        <s:submit value="submit"/>
+    </s:form>
 </body>
 
 </html>
